@@ -1,0 +1,21 @@
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-content {
+  padding: calc(var(--navbar-height) + 1.5rem) 1.5rem 1.5rem;
+  min-height: 100vh;
+  max-width: 1400px;
+}
+
+@media (max-width: 768px) {
+  .main-content { margin-left: 0; }
+  .page-content { padding: calc(var(--navbar-height) + 1rem) 1rem 1rem; }
+}

@@ -1,0 +1,11 @@
+pandas
+langchain
+langchain-community
+langchain-openai
+langchain-huggingface
+faiss-cpu
+streamlit
+sentence-transformers
+fastapi
+uvicorn
+pydantic
